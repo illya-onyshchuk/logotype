@@ -2,6 +2,10 @@
 
 body {
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e5e5e;
   /* font-family: "Roboto", sans-serif; */
 }
 
@@ -170,6 +174,7 @@ header {
   border: 1px solid #ffc222;
   border-right-width: 20px;
   position: relative;
+  text-decoration: none;
 }
 
 .default-btn::after {
@@ -179,6 +184,10 @@ header {
   top: 50%;
   transform: translateY(-50%);
   right: -12px;
+}
+
+.default-btn:focus {
+  outline: none;
 }
 
 .slick-btn {
@@ -223,24 +232,24 @@ header {
 
 /* #endregion Slider */
 
-/* #region About */
-.about {
+/* #region Services */
+.services {
   padding: 50px 0 30px;
 }
 
-.about__top {
+.services__top {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
 }
 
-.about__title-box {
+.services__title-box {
   max-width: 415px;
   padding-left: 140px;
   position: relative;
 }
 
-.about__title-box::before {
+.services__title-box::before {
   content: "";
   position: absolute;
   left: 0;
@@ -250,7 +259,7 @@ header {
   background-color: #ffc222;
 }
 
-.about__title {
+.services__title {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -259,7 +268,7 @@ header {
   margin-bottom: 10px;
 }
 
-.about__text {
+.services__text {
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -267,7 +276,7 @@ header {
   color: #5e5e5e;
 }
 
-.about__btn a {
+.services__btn a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-size: 14px;
@@ -278,29 +287,31 @@ header {
   border: 3px solid #e6e6e6;
 }
 
-.about__items {
+.services__items {
   display: flex;
   justify-content: space-between;
 }
 
-.about__item {
+.services__item {
   max-width: 360px;
   text-align: center;
   padding: 30px 0px 80px;
   position: relative;
   min-height: 375px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
 }
 
-.about__item-title {
+.services__item-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   color: #212020;
-  padding: 24px 0px;
+  padding: 24px 0;
 }
 
-.about__item-text {
+.services__item-text {
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.1px;
@@ -308,9 +319,27 @@ header {
   padding: 0px 30px 30px;
 }
 
-.about__item-btn {
+.services__item-btn {
   position: absolute;
   bottom: 40px;
+  left: 0;
+  right: 0;
 }
 
-/* #endregion About */
+.services__item-btn .default-btn {
+  color: #373636;
+}
+
+.services__item-btn .default-btn::after {
+  color: #fff;
+}
+
+.services__item-link {
+  font-family: "Roboto", sans-serif;
+  color: #050505;
+  text-decoration: none;
+  border-bottom: 1px solid #050505;
+  margin-right: 60px;
+}
+
+/* #endregion Services */
