@@ -548,3 +548,41 @@ header {
 }
 
 /* #endregion Form */
+
+/* #region Advantages */
+.advantages {
+  background-image: url(../img/adv-fon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 55px 0px 40px;
+  min-height: 285px;
+}
+
+.advantages__inner {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.advantages__item {
+  max-width: 360px;
+  padding: 0px 20px;
+}
+
+.advantages__title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 60px 0px 15px;
+}
+
+.advantages__text {
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  color: #d3d2d2;
+}
+
+/* #endregion Advantages */
