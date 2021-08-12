@@ -9,5 +9,4 @@ $('.slider__inner, .news__slider-inner').slick({
 
 $('select').styler();
 
-
 });

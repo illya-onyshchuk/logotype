@@ -1,0 +1,35 @@
+@media screen and (max-width: 700px) {
+  .header__contacts {
+    text-align: center;
+  }
+
+  .header__btn {
+    display: block;
+    float: none;
+    padding: 5px 4px;
+  }
+
+  .header__btn::before {
+    display: none;
+  }
+
+  .header__btn-menu {
+    display: block;
+  }
+
+  .menu ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__btn::before {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header__email {
+    padding-right: 30px;
+  }
+}

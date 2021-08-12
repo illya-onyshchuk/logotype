@@ -35,7 +35,6 @@ header {
 
 .header__phone,
 .header__email {
-  font-size: 14px;
   letter-spacing: 0.25px;
   color: #a2a1a2;
   line-height: 45px;
@@ -76,6 +75,7 @@ header {
   color: #1b1b1b;
   background-color: #ffc222;
   text-decoration: none;
+  display: block;
   position: relative;
 }
 
@@ -87,11 +87,6 @@ header {
   color: #1b1b1b;
 }
 
-#dialog-content {
-  display: none;
-  max-width: 500px;
-}
-
 .header__content {
   padding: 34px 0px 23px;
 }
@@ -99,6 +94,11 @@ header {
 .header__content-inner {
   display: flex;
   justify-content: space-between;
+}
+
+.header__btn-menu {
+  display: none;
+  font-size: 28px;
 }
 
 .menu li {
@@ -878,9 +878,33 @@ header {
   background-color: #303030;
 }
 
-#dialog-content input {
-  display: block;
-  width: 100%;
+/* #endregion Footer */
+
+/* #region Modal */
+
+#dialog-content {
+  display: none;
+  max-width: 500px;
 }
 
-/* #endregion Footer */
+#dialog-content {
+  width: 300px;
+}
+
+#dialog-content input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  padding: 0px 10px;
+}
+
+#dialog-content input[type="submit"] {
+  background-color: #ffc222;
+  border: none;
+}
+/* #endregion Modal */
