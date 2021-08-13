@@ -9,4 +9,8 @@ $('.slider__inner, .news__slider-inner').slick({
 
 $('select').styler();
 
+$('.header__btn-menu').on('click', function(){
+  $('.menu ul').slideToggle();
+});
+
 });
