@@ -347,7 +347,7 @@ header {
 /* #region About */
 
 .about {
-  background-image: url(../img/about-fon.jpg);
+  background-image: url(../img/about-fon-min.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -387,7 +387,7 @@ header {
 
 .form__inner {
   padding-bottom: 40px;
-  background-image: url(../img/form-fon.png);
+  background-image: url(../img/form-fon-min.png);
   min-height: 460px;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -551,7 +551,7 @@ header {
 
 /* #region Advantages */
 .advantages {
-  background-image: url(../img/adv-fon.jpg);
+  background-image: url(../img/adv-fon-min.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
