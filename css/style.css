@@ -128,7 +128,7 @@ header {
 /* #region Slider */
 
 .slider {
-  background: no-repeat center url(../img/slider-fon.jpg);
+  background: no-repeat center url(../img/slider-fon-min.jpg);
   background-size: cover;
   min-height: 500px;
 }
