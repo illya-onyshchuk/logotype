@@ -101,7 +101,7 @@ header {
   font-size: 28px;
 }
 
-menu li {
+.menu li {
   display: inline-block;
 }
 
@@ -872,7 +872,7 @@ menu li {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-align: center;
-  font-style: 12px;
+  font-size: 19px;
   line-height: 24px;
   padding: 8px 0px;
   background-color: #303030;
